@@ -1,0 +1,5 @@
+print("წიწიბურა")
+print("კატა")
+print(67)
+print("giorgi")
+print("nino")
