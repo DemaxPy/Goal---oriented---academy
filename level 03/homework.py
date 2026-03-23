@@ -33,10 +33,6 @@ print (name * name2 * name3)
 
 
 
-
-
-
-
 name =  (1+2)
 name2 = (2-1)
 name3 = (2*2)
