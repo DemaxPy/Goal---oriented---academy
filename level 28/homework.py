@@ -1,10 +1,10 @@
-age = print(input("enter your age:"))
+age = int(input("enter your age:"))
   
 
-if age >= 18
+if age >= 18:
  print("you are an adult.")
 
-if age <= 18
+if age <= 18:
   print("you are not an adult")
 
 
