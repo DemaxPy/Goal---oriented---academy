@@ -1,0 +1,28 @@
+git config --global user.name "DemaxPy"
+git config --global user.email "demaxplayz@gmail.com"
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/DemaxPy/Goal---oriented---academy.git
+git push -u origin main
+
+
+
+
+------------------------------------------------------------------------------------
+
+
+                     How to fix ''Open with VS code'' not showing 
+              
+
+This method involves modifying the Windows Registry and should be performed with caution. Incorrect edits can cause system instability.
+
+Open Registry Editor: Press Win + R, type regedit, and press Enter.
+Navigate to Shell Key: Navigate to HKEY_CLASSES_ROOT\Directory\Background\shell.
+Create New Key: Right-click on shell, select New > Key, and name it Open with VS Code. 
+Set Default Value: Double-click on (Default) within the Open with VS Code key and set its Value data to Open with VS Code.
+Add Icon (Optional): Right-click Open with VS Code, select New > String Value, name it Icon, and set its Value data to the path of Code.exe (e.g., "C:\\Users\\YourUserName\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe").
+Create Command Key: Right-click on Open with VS Code, select New > Key, and name it command. 
+Set Command Value: Double-click on (Default) within the command key and set its Value data to the path of Code.exe followed by "%V" for folders or "%1" for files (e.g., "C:\\Users\\YourUserName\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe" "%V"). 
+Note: The exact path to Code.exe might vary depending on your installation location. Adjust the paths accordingly.
