@@ -12,11 +12,11 @@ greet("luka")
 
 
 
-def check_number(num):
+def number(num):
     if num % 2 == 0:
         print("even")
     else:
         print("Odd")
 
-check_number(8)
-check_number(5)
+number(8)
+number(5)

@@ -36,5 +36,5 @@ num(7)
 def num(x):
     print(x+x)
 num(7)
-num(9)
+
 
